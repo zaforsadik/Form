@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.form{
+    width: 400px;
+    height: 350px;
+    background: skyblue;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    box-shadow: 4px 5px 23px 0px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+input{
+    padding: 15px;
+}
+::placeholder{
+    color: red;
+    font-size: 15px;
+}
+.user{
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.login{
+    border: none;
+    background: #1877f2;
+    font-weight: 700;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+.forgot{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.forgot a{
+    text-decoration: none;
+}
+.newac{
+    font-weight: 700;
+    
+    text-align: center;
+
+}
+
+.newac a{text-decoration: none;
+}
+
+.forgot{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px;
+    background:ivory;
+    display: block;
+    margin-top: 10px;
+
+}
+.newac{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px;
+    background:ivory;
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+
